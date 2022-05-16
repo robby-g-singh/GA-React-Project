@@ -4,10 +4,8 @@ import Authors from './Components/Authors';
 import Home from './Components/Home'
 import Quotes from './Components/Quotes';
 import {Route, Routes, Link} from 'react-router-dom'
+import Data from './Components/Data'
 
-  fetch('https://type.fit/api/quotes')
-    .then(response => response.json())
-    .then(data => console.log(data))
 
 
 function App() {
@@ -32,6 +30,7 @@ function App() {
         </Routes>
       </main>
       
+      <Data />
       
       
     </div>
