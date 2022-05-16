@@ -1,6 +1,8 @@
 import './App.css';
 import About from './Components/About';
+import Authors from './Components/Authors';
 import Home from './Components/Home'
+import Quotes from './Components/Quotes';
 
   fetch('https://type.fit/api/quotes')
     .then(response => response.json())
@@ -12,6 +14,8 @@ function App() {
     <div className="App">
       <Home />
       <About />
+      <Quotes />
+      <Authors />
       
       
     </div>
