@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: #191970;
+
 }
 
 .App-logo {
@@ -36,3 +38,28 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #FFE4B5;
+}
+
+.nav-list {
+  border: 5px;
+  background-color: #FFA07A;
+  margin: 0px;
+  height: 40px;
+  
+}
+
+.nav-list a {
+  color: #191970;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 7px 15px;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+ 
+}
+
