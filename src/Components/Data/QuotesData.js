@@ -17,9 +17,15 @@ const Data = () => {
         
     }
 
+    for(let i = 0; i < data.length; i++) {
+        if(!data[i].author) {
+            data[i].author = 'Unknown'
+        }
+    }
+
     if(display[0]) {
         return (
-            <ul>
+            <ul className="quotes-list">
                 {display.map((i, index) => <li key={index}>{i.text} - {i.author}</li>)}
             </ul>
             )
@@ -29,3 +35,4 @@ const Data = () => {
 
 
 export default Data
+

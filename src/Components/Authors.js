@@ -1,11 +1,12 @@
+import AuthorsData from './Data/AuthorsData'
+
 const Authors = () => {
     return (
         <div className="authors-page">
         <h1>Authors Page</h1>
+        <h2>View the featured authors in this API!</h2>
         <ul className="authors-list">
-            <li>author1</li>
-            <li>author2</li>
-            <li>author3</li>
+            <AuthorsData />
         </ul>
     </div>
     )

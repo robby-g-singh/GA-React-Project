@@ -4,7 +4,6 @@ import Authors from './Components/Authors';
 import Home from './Components/Home'
 import Quotes from './Components/Quotes';
 import {Route, Routes, Link} from 'react-router-dom'
-import Data from './Components/Data'
 
 
 
@@ -19,7 +18,7 @@ function App() {
           <Link to="/authors">Authors</Link>
         </ul>
       </nav>
-
+  
       <main>
         <Routes>
           <Route path="" element={<Home />} />
@@ -30,7 +29,6 @@ function App() {
         </Routes>
       </main>
       
-      <Data />
       
       
     </div>
