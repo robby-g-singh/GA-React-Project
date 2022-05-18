@@ -3,7 +3,7 @@ import '../stylesheets/About.css'
 const About = () => {
     return (
         <div className="about-page">
-            <h1 id="about-heading">About Page</h1>
+            <h1 id="about-heading">About</h1>
             <br></br>
             <h2 id="about-subheading">My first React App!</h2>
             <br></br>
