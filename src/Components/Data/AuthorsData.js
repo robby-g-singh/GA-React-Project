@@ -40,6 +40,13 @@ const Authors = () => {
            display[i] = duplicatesArray[Math.floor(Math.random()*duplicatesArray.length)]
        }
 
+       for(let i = 0; i < display.length; i++) {
+           if(display[i].includes('proverb')) {
+               let newStr = display[i].replace("proverb", "proverbs")
+               display[i] = newStr
+           }
+       }
+
        console.log(display)
        
 

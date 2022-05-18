@@ -21,6 +21,7 @@ const Data = () => {
         if(!data[i].author) {
             data[i].author = 'Unknown'
         }
+        
     }
 
     if(display[0]) {
