@@ -1,0 +1,24 @@
+.quotes-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#quotes-heading {
+    grid-column: 2;
+}
+
+#quotes-subheading {
+    grid-column: 1 / 4;
+    margin-top: 30px;
+}
+
+#quotes-data {
+    grid-column: 1 / 4;
+    margin-top: 25px;
+}
+
+#quotes-data li {
+    list-style: none;
+    margin: 15px;
+    font-size: 20px;
+}

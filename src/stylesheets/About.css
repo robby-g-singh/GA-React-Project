@@ -1,0 +1,20 @@
+.about-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#about-heading {
+    grid-column: 2;
+}
+
+#about-subheading {
+    margin-top: 50px;
+    grid-column: 2;
+   
+
+}
+
+.readMe {
+    grid-column: 2;
+    margin-top: 150px;
+}
