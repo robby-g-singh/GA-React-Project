@@ -49,5 +49,4 @@ Mobile Design               4                  4-8hrs                       3hrs
 
 
 ## Final Product:
-
-<img src="/images/quotesAPIscreenshot.png">
+<img width="2240" alt="Quotes API screenshot" src="https://user-images.githubusercontent.com/73762993/169400301-b66b9efc-a5a5-454e-94c1-7191523b0e56.png">
