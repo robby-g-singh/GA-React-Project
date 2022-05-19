@@ -4,7 +4,7 @@ Front-end API project built during my Software Engineering Immersive Program wit
 
 ## Project Worksheet
 
-[Project Worksheet](https://github.com/robby-13/GA-React-Project/files/8734087/React-MVP.pdf)
+[Project Planning Worksheet](https://github.com/robby-13/GA-React-Project/files/8734087/React-MVP.pdf)
 
 
 
