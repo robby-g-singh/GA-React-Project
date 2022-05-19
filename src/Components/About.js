@@ -9,20 +9,20 @@ const About = () => {
             <br></br>
             <div className="readMe">
                 <p className="first-paragraph">
-                    As a novice to React, I found this project to be a great way to test my skills in React.
+                    As a novice to React, I found this project to be a great way to test my skills in it.
                     The project was a great way to understand APIs and how they work. 
                 </p>
             
                  <p className="second-paragraph">
-                    The project was built using create-react-app, React Components and React's built-in useState and React Router libraries.
+                    The project was built mobile-first using create-react-app, React Components and React's built-in useState and React Router libraries.
                     The Components are ultimately divided into two sections, one for the different pages in the nav bar
                     and one for the data that will be showcased on the different pages. The Home Component is relatively simple,
-                    it features a random quote from the API that regenerates whenever the page is refreshed. 
+                    it features a random quote from the API that regenerates every time the page is refreshed. 
                 </p>
 
                 <p className="third-paragraph">
                     The Quotes and Author Components feature similar funtionality. Since the API consists of 1000+
-                    quotes, I decided to have the app show only 20 at a time - both components also regenerate whenever
+                    quotes, I decided to have the app show only 20 at a time - both components also regenerate every time
                     the page is refreshed. There are some functional differences that I implemented, and am proud of, for the
                     Authors and Quotes Components. In the former, I only listed names of authors that had more than one quote
                     in the data. In order to do so, I needed to create an Array that stored just author names from the array of
