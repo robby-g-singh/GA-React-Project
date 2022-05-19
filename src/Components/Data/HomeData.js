@@ -21,7 +21,6 @@ const HomeData = () => {
 
     if(data[0]) {
         return (
-            // <h1 className="home-quote">{quote}</h1>
             <div>
                 <h1>{quote.text} - {quote.author}</h1>
             </div>

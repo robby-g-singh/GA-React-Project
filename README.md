@@ -1,12 +1,12 @@
-# Getting Started with Create React App
+# Quotes API App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front-end API project built during my Software Engineering Immersive Program with General Assembly.
 
-## Available Scripts
+## Project Worksheet
 
-In the project directory, you can run:
+My entire planning process for this project:
 
-### `npm start`
+### Project Matrix
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
