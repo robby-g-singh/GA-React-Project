@@ -4,10 +4,19 @@ import Authors from './Components/Authors';
 import Home from './Components/Home'
 import Quotes from './Components/Quotes';
 import {Route, Routes, Link} from 'react-router-dom'
+import Hamburger from './Components/Hamburger';
+import { useState } from 'react';
 
 
 
 function App() {
+
+  const [hamburgerOpen, setHamburgerOpen] = useState(false)
+
+  const handleHamburger = () => {
+    setHamburgerOpen(!hamburgerOpen)
+  }
+
   return (
     <div className="App">
       <nav className="nav-bar">
@@ -17,7 +26,23 @@ function App() {
           <Link to="/quotes">Quotes</Link>
           <Link to="/authors">Authors</Link>
         </ul>
+       
+        <div className='hamburger' onClick={handleHamburger}>
+          <Hamburger />
+        </div>
+      
       </nav>
+
+      <style jsx>{`
+        @media (max-width: 525px) {
+          .nav-list {
+            display: ${hamburgerOpen ? 'block' : 'none'};
+            background-color: #FFA07A;
+            
+          }
+        }
+      `}
+      </style>
   
       <main>
         <Routes>

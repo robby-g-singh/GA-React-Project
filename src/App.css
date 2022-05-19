@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #191970;
+  color: black;
 
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 .nav-list a {
-  color: #191970;
+  color: black;
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
@@ -63,3 +63,23 @@ body {
  
 }
 
+.nav-bar .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 515px) {
+  .nav-bar .hamburger {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 10px;
+    z-index: 10;
+  }
+
+  .nav-list a {
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+ 
+}

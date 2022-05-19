@@ -5,10 +5,10 @@ import '../stylesheets/Home.css'
 const Home = () => {
     return (
         <div className="home-page">
-            <h1 id="title">Knowledge is Power</h1>
+            <h1 id="title">Knowledge shared is Power Multiplied</h1>
             <div className="home-pic" >
                 <img src={image} alt="Great Sikh scholar Sant Inderjeet Singh" style={{width:250, height:350}}/>
-                <p>A homage to the living embodiment of wisdom, Sant Inderjeet Singh of Raqba, from the Panjab region of northern India</p>
+                <p>A homage to the living embodiment of wisdom and knowledge, Sant Inderjeet Singh of Raqba, from the Panjab region of northern India</p>
             </div>
             <br></br>
             <div className='home-quote'>

@@ -47,7 +47,7 @@ const Authors = () => {
            }
        }
 
-       console.log(display)
+       
        
 
        return (
