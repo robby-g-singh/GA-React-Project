@@ -67,7 +67,7 @@ body {
   display: none;
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 510px) {
   .nav-bar .hamburger {
     display: flex;
     padding-top: 10px;
