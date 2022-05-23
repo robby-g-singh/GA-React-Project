@@ -12,6 +12,6 @@ Front-end API project built during my Software Engineering Immersive Program wit
 <img width="2240" alt="Quotes API screenshot" src="https://user-images.githubusercontent.com/73762993/169400301-b66b9efc-a5a5-454e-94c1-7191523b0e56.png">
 
 
-##Live link to Project:
+## Live link to Project:
 
 [GitHub Pages Live Link](https://robby-13.github.io/GA-React-Project/)
