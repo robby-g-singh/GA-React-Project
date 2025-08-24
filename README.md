@@ -14,4 +14,4 @@ Front-end API project built during my Software Engineering Immersive Program wit
 
 ## Live link to Project:
 
-[GitHub Pages Live Link](https://robby-13.github.io/GA-React-Project/)
+[GitHub Pages Live Link](https://robby-g-singh.github.io/GA-React-Project/)
