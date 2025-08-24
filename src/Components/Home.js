@@ -8,7 +8,7 @@ const Home = () => {
             <h1 id="title">React Quotes API</h1>
             <div className="home-pic" >
                 <img src={image} alt="Great Sikh scholar Sant Inderjeet Singh" style={{width:250, height:350}}/>
-                <p>A homage to the living embodiment of wisdom and knowledge, Sant Inderjeet Singh of Raqba, from the Panjab region of northern India</p>
+                <p>An homage to the living embodiment of wisdom and knowledge, Sant Inderjeet Singh of Raqba, from the Panjab region of northern India</p>
             </div>
             <br></br>
             <div className='home-quote'>
